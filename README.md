@@ -45,14 +45,10 @@ pico
 
 启动后会进入 REPL，可以持续对话，会话状态自动保存到 `.pico/sessions/`。
 
-![pico start](assets/screenshots/pico-start.png)
-
 **一次性任务：**
 ```bash
 pico "排查一下最近的测试失败原因"
 ```
-
-![pico help](assets/screenshots/pico-help.png)
 
 **指定工作目录：**
 ```bash
@@ -98,8 +94,6 @@ pico --provider ollama
 | `/session` | 查看会话文件路径 |
 | `/reset` | 重置当前会话 |
 | `/exit` | 退出 |
-
-![pico repl](assets/screenshots/pico-repl.png)
 
 ## 运行产物
 
